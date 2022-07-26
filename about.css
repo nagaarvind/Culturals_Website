@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  padding: 20px 10px;
+  background-color: #000;
+}
+nav img {
+  width: 14%;
+  margin-top: 5px;
+  margin-left: 2%;
+  border-radius: 30px;
+}
+.logo {
+  width: 33%;
+  height: 70px;
+  align-items: center;
+  margin-left: 2%;
+}
+.logo-2 {
+  width: 80%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  margin-left: -23%;
+}
+nav h1 {
+  color: aliceblue;
+  margin-left: 23%;
+  align-items: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: xx-large;
+}
+
+.footer1 {
+  margin: 140px 0 10px;
+  text-align: center;
+  color: rgb(100, 98, 98);
+}
+.footer1 a {
+  text-decoration: none;
+  color: #999;
+  font-size: 22px;
+  margin: 0 10px;
+}
+.footer1 hr {
+  background: #999;
+  height: 1px;
+  width: 100%;
+  margin: 20px 0;
+}
+
+@media only screen and (min-width: 763px) {
+  .list {
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 160px 100px 40px;
+  }
+  .list h3 {
+    background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+    background-size: cover;
+    color: transparent;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    text-transform: uppercase;
+    font-size: 90px;
+    margin: 10px 0;
+    text-align: center;
+  }
+  .list li {
+    margin: 10px;
+    font-size: 28px;
+    text-align: left;
+    font-family: "Times New Roman", Times, serif;
+    list-style-type: none;
+    margin-left: 15px;
+    line-height: 1.6;
+  }
+
+  .list strong {
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+}
+h1 {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: yellow;
+}
+.footer {
+  margin: 10px 0 10px;
+  text-align: center;
+  color: rgb(100, 98, 98);
+}
+.footer a {
+  text-decoration: none;
+  color: #999;
+  font-size: 22px;
+  margin: 0 10px;
+}
+.footer hr {
+  background: #999;
+  height: 1px;
+  width: 100%;
+  margin: 20px 0;
+}
+.credits {
+  text-align: right;
+  font-size: 10px;
+}
